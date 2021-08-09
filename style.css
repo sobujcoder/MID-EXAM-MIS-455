@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .radius{
-    border-radius: 11vw;
+    border-radius: 5vw;
     background-color: rgb(9, 201, 9);
 }
 .shadow{
@@ -12,4 +12,7 @@ box-shadow: 10px 10px 5px;
 li a:hover{
     background-color: rgb(221, 44, 21);
     cursor: pointer;
+}
+.edit{
+    margin-left:20vw;
 }

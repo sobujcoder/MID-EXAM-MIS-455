@@ -37,10 +37,32 @@
                         <li class="nav-item">
                             <a class="nav-link active itemmiddle" aria-current="page" href="#">Blog</a>
                         </li>
-                        <li class="nav-item">
-                            <button type="button" class="radius" class="btn btn-success nav-link active itemmiddle" aria-current="page"
-                                id="navbtn" style="width: 104px;
-                                height: 43px;">Sign in</button>
+                        <a class="radius" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Sign in
+                          </a>
+                        <!--canves off header-->
+                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-color:rgb(226, 240, 226);">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Information</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <img src="online.jpg" width="250">
+                            <div class="offcanvas-body">
+                              <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                              </div>
+                              <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                  Dropdown button
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
                         </li>
                     </ul>
                 </div>
@@ -61,14 +83,34 @@
                             </h1>
                             <p1 style="color: #6C6B6B;">Lorem Ipsum is simply dummy text. </p1>
                             <br><br>
-
+<!--modal-->
                             <btn>
-                                <button type="button" class="radius" class="btn btn-success nav-link active itemmiddle"
-                                    aria-current="page" id="navbtn" style="width: 153px;
+                                <button type="button" class="btn btn-success nav-link active itemmiddle"
+                                    aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal"  id="navbtn" style="width: 153px;
                                 height: 43px; ">
-                                    <p style="margin: 0px 0px 1px 0px;">Get Started</p>
+                                    <p class="edit1"style="margin: 0px 0px 1px 0px;">Get Started</p>
                                 </button>
                             </btn>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content" style="background-color: rgb(215, 188, 241);">
+                                    <div class="modal-header">
+                                      <h2 class="modal-title justify-content-center" id="exampleModalLabel" > <br>Web Site</h2>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="d-flex justify-content-center align-items-center"><img src="Man.png" alt=""width="250"></div>
+                                      <br>
+                                      <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                     
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 
                         </div>
                     </div>
@@ -80,7 +122,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </header>
 <!--banner two-->
     <main>

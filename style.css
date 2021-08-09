@@ -6,13 +6,25 @@ body{
     margin-left: 10vw;
 }
 .radius{
-    border-radius: 2vw;
+    margin-right: 5vw;
+    margin-top: 0.3vw;
+    padding: 0.2vw;
+    margin-left: 0.5vw;
+    border-radius: 0.3vw;
     background-color: #21B573;
+    text-decoration: none;
 }
 .box{
     box-shadow: 12px 12px 2px 1px rgba(9, 9, 145, 0.2);
 }
 li a:hover{
-    background-color: rgb(221, 44, 21);
+    background-color:brown;
     cursor: pointer;
+}
+
+.radius:hover{
+    background-color: brown;
+}
+.edit1{
+    border-radius: 0.3vw;
 }

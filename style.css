@@ -2,3 +2,6 @@
     border-radius: 11vw;
     background-color: rgb(9, 201, 9);
 }
+.shadow{
+    box-shadow: rgb(239, 248, 239);
+}

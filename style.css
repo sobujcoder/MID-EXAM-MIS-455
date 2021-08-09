@@ -2,17 +2,17 @@ body{
     margin: 0;
     padding: 0;
 }
-.radius{
-    border-radius: 5vw;
-    background-color: rgb(9, 201, 9);
+.edit{
+    margin-left: 10vw;
 }
-.shadow{
-box-shadow: 10px 10px 5px;
+.radius{
+    border-radius: 2vw;
+    background-color: #21B573;
+}
+.box{
+    box-shadow: 12px 12px 2px 1px rgba(9, 9, 145, 0.2);
 }
 li a:hover{
     background-color: rgb(221, 44, 21);
     cursor: pointer;
-}
-.edit{
-    margin-left:20vw;
 }
